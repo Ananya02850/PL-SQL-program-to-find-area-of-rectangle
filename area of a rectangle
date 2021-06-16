@@ -1,0 +1,11 @@
+declare
+ l integer;
+ b integer;
+ area integer;
+
+begin
+ l:=20;
+ b:=2;
+area:=l*b;
+ dbms_output.put_line('The area of rectangle is ' ||area);
+ end;
